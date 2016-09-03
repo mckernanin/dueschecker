@@ -60,7 +60,7 @@ class Tahosa_Dues_API {
 
 	public function post_types() {
 		$args = array(
-			'public' => true,
+			'public' => false,
 			'label'  => 'API Member',
 		);
     	register_post_type( 'oad_api_member', $args );

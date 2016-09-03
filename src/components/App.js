@@ -10,7 +10,8 @@ class App extends Component {
           <h2>Tahosa Lodge Dues</h2>
         </div>
         <p className="App-intro">
-          To look up your dues, fill out the form below.
+          To look up your dues, fill out the form below.<br />
+		  If you're not being found, try your full name.
         </p>
 		<Form/>
       </div>

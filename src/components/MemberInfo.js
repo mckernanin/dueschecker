@@ -16,10 +16,15 @@ class MemberInfo extends Component {
 			)
 		}
 	}
+
+	resetForm() {
+		window.location.reload();
+	}
   render() {
     return (
 		<div className="member-info">
 			{ this.renderResponse() }
+			<button onClick={this.resetForm.bind(this)}>Search again?</button>
 		</div>
     );
   }
