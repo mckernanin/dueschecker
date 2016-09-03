@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form';
 import '../assets/App.css';
-let isEmbed = window != window.parent;
 
 class App extends Component {
   render() {
