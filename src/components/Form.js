@@ -64,7 +64,7 @@ class Form extends Component {
 					</label>
 					<label>
 						<span>ZIP Code</span>
-						<input type="number" name="zip" onChange={this.changeZIP.bind(this)}/>
+						<input type="number" name="zip" onChange={this.changeZIP.bind(this)} pattern="\d*"/>
 					</label>
 					<button onClick={this.queryMembers.bind(this)}>Check my dues</button>
 				</form>
