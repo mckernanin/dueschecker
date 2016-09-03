@@ -1,0 +1,62 @@
+body {
+	font-family: museo-slab !important;
+	font-size: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #CF253D;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+button {
+	border: 0;
+	background: #CF253D;
+	color: white;
+	font-family: museo-slab;
+	padding: 1em 2em;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	color: #CF253D;
+	background: rgba(207,37,61, 0.1);
+}
+
+label {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5em;
+	font-size: 22px;
+}
+
+input {
+	font-size: 16px;
+	font-family: museo-slab;
+}
+
+form {
+	max-width: 320px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column;
+}
+
+.member-info {
+	margin-top: 2em;
+}
+
+.member-info + form {
+	display: none;
+}
