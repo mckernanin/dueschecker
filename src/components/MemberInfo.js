@@ -25,6 +25,7 @@ class MemberInfo extends Component {
 		<div className="member-info">
 			{ this.renderResponse() }
 			<button onClick={this.resetForm.bind(this)}>Search again?</button>
+			<a href="http://tahosalodge.doubleknot.com/event/tahosa-lodge-2016-2017-dues-deal/1970697" target="_blank" className="button">Pay your dues</a>
 		</div>
     );
   }
