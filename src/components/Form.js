@@ -67,7 +67,11 @@ class Form extends Component {
 						<input type="number" name="zip" onChange={this.changeZIP.bind(this)} pattern="\d*"/>
 					</label>
 					<button onClick={this.queryMembers.bind(this)}>Check my dues</button>
-					<a href="http://tahosalodge.doubleknot.com/event/tahosa-lodge-2016-2017-dues-deal/1970697" target="_blank" className="button">Pay my dues</a>
+					{
+						this.props.payDues ?
+						<a href="http://tahosalodge.doubleknot.com/event/tahosa-lodge-2016-2017-dues-deal/1970697" target="_blank" className="button">Pay my dues</a> :
+						null						
+					}
 				</form>
 			</div>
 		);
