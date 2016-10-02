@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sftp": "^0.1.5",
     "react-fetch": "0.0.9",
     "react-scripts": "0.6.1"
   },
@@ -19,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "gulp"
+    "deploy": "npm run build && gulp"
   },
   "eslintConfig": {
     "extends": "react-app"
