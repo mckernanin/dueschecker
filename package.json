@@ -6,7 +6,7 @@
     "gulp": "^3.9.1",
     "gulp-sftp": "^0.1.5",
     "react-fetch": "0.0.9",
-    "react-scripts": "0.6.1"
+    "react-scripts": "0.9.5"
   },
   "dependencies": {
     "gulp": "^3.9.1",
